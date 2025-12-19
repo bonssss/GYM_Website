@@ -28,7 +28,7 @@ const contactInfo = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="section-padding">
+    <section id="contact" className="section-padding py-40" >
       <div className="container mx-auto">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
