@@ -59,7 +59,7 @@ const Services = () => {
 
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service, index) => (
+          {services.map((service, _index) => (
             <div
               key={service.title}
               className="group bg-card border border-border rounded-lg p-8 hover:border-primary/50 transition-all duration-500 hover:-translate-y-2"
